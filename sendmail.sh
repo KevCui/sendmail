@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Send anonymous email in terminal
+# Send anonymous email from terminal
 #
 #/ Usage:
 #/   ./sendmail.sh -t <to_address> [-s <subject>|-m <message>]
