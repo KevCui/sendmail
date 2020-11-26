@@ -8,6 +8,7 @@
 - [Usage](#usage)
   - [Examples](#examples)
 - [Limitation](#limitation)
+- [Similar projects](#similar-projects)
 
 ## Dependency
 
@@ -53,6 +54,18 @@ Enter captcha letters:
 - Since [Tempr.email](https://tempr.email/) uses 3-letter captcha to prevent the abuse of their mail sending service, manually entering 3-letter captcha text is required before sending each email. The captcha letters will be shown in the terminal by `viu`. It's not perfect for hands-free, but so far, there isn't a good solution to automate captcha solving process yet.
 
 - There is a request limit from [Tempr.email](https://tempr.email/): **max. 15 emails per hour per IP address**. (It won't be a problem if you know how to use Tor.)
+
+## Similar projects
+
+Want more temp mail service? Check out:
+
+- [1secmail](https://github.com/KevCui/1secmail)
+
+- [getnada](https://github.com/KevCui/getnada)
+
+- [tempmail](https://github.com/KevCui/tempmail)
+
+You may like them!
 
 ---
 
