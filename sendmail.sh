@@ -119,7 +119,7 @@ account_login() {
 
 enter_captcha() {
     local c=""
-    $_CURL -sS "${_API}/secureCaptcha.php?sid=${_SID}" \
+    $_CURL -sS "${_API}/secureCaptcha.php?sid=${_SID}&small=1" \
         -H "Cookie: ${_COOKIE}" \
         -o "$_TMP_FILE"
 
